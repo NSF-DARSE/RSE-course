@@ -2,6 +2,10 @@
 
 This repository is the central hub for the NSF DARSE Research Software Engineering course.
 
+<p align="center">
+  <img src="assets/course-overview.png" alt="NSF DARSE RSE Course" width="800">
+</p>
+
 ## Purpose
 This repository contains:
 - course information and policies
