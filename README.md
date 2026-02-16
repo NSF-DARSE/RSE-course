@@ -15,6 +15,8 @@ This repository contains:
 ⚠️ No project code lives in this repository.
 
 ## Course Structure
+- Assets for some course lecture can be found course_material folder
+- Instrutions to set-up WSL in windows is available in course_material folder
 - Each case study is developed in its own GitHub repository
 - Students work via issues, branches, and pull requests
 - This repo remains stable throughout the semester
