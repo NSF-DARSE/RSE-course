@@ -78,3 +78,5 @@ your GitHub account. To do that
     6. Stage `git add <file>` and commit `git commit -m "message"`
     7. Push changes to the repo also by adding upstream tracking branch
         `git push -u origin feature_branch`
+    8. Now in GitHub webiste of your repo, you can select your branch that you are
+        working on and open a pull request to merge your changes with main branch.
