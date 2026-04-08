@@ -32,7 +32,7 @@ This repository contains:
 | THE LIVING CLASSROOM -BIOACOUSTIC DASHBOARD | UD: ENTOMOLOGY AND WILDLIFE ECOLOGY | https://github.com/nsf-darse/living-classroom-realtime-learning |
 | PHYSICS-AWARE ML FOR CERAMIC MANUFACTURING | UD: COMPUTER & INFORMATION SCIENCES | https://github.com/nsf-darse/physics-aware-ml-ceramics-am |
 | SENTINEL: NEXT-GEN AI EXECUTION LAYER | BEST EGG | https://github.com/nsf-darse/sentinel-nextgenai-execution-layer |
-| DERIVATION OF EXPERIMENTALLY VALIDATED REGULATORY NETWORKS BASED ON LITERATURE | UD: BIOLOGICAL SCIENCES | https://github.com/nsf-darse/literature-derived-regulatory-networks |
+| DERIVATION OF EXPERIMENTALLY VALIDATED REGULATORY NETWORKS BASED ON LITERATURE | UD: BIOLOGICAL SCIENCES | https://github.com/NSF-DARSE/eyeNet |
 | SECURED CONSUMER LENDING ALTERNATIVE | STEPPING STONES CDFI CREDIT UNION | https://github.com/nsf-darse/secured-consumer-lending-platform |
 | GNNS FOR NETWORK INTRUSION DETECTION | LINCOLN UNIVERSITY |  https://github.com/nsf-darse/gnn-intrusion-detection |
 | AUTOMATED PROVISIONING & FINANCIAL DATA ANALYTICS | VENDERLY | https://github.com/nsf-darse/venderly-provisioning-finance-automation |
