@@ -80,3 +80,8 @@ your GitHub account. To do that
         `git push -u origin feature_branch`
     8. Now in GitHub webiste of your repo, you can select your branch that you are
         working on and open a pull request to merge your changes with main branch.
+    9. Once you made your first pull request, that is pushing your changes from 
+        feature branch to main branch; you can switch back to your feature_branch
+        to continue working on your code (git push to feature_branch do work). 
+    10. When you have made sufficient progress in the feature branch you can submit 
+        further PRs
