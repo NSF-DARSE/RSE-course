@@ -25,17 +25,7 @@ This is the best default because most case-study projects are collaborative rese
 
 Use `main` as the stable shared branch with branch protection rules and continious integration.
 
-Recommended branch names:
-
-```text
-feature/add-velocity-plot
-fix/readme-installation-steps
-docs/update-case-study-summary
-analysis/pca-timepoint-comparison
-refactor/clean-data-loading
-```
-
-Branch prefixes:
+Recommended branch prefixes:
 
 | Prefix      | Use for                                     |
 | ----------- | ------------------------------------------- |
