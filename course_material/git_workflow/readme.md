@@ -97,6 +97,15 @@ After approval, merge into `main`. Then delete the feature branch from GitHub.
 
 Deleting merged branches keeps the repository clean. The branch history remains available through the pull request.
 
+### Merge, Rebase, and Squash Merge Comparison
+
+| Method | What it does | Keeps all commits? | Creates merge commit? | Best use |
+|-------|---------------------------|-----|-----|--------------------------|
+| Merge | Combines branch histories | Yes | Yes | Full development history |
+| Rebase | Replays commits on top of updated `main` | Yes | No | Cleaning/updating branch history |
+| Squash merge | Combines branch commits into one commit | No | No | Clean project history for PRs |
+
+
 ## When to use other workflows
 
 ## Option A: GitHub Flow — recommended default
