@@ -141,6 +141,10 @@ main
 * Requires discipline to keep branches short-lived
 * Less suitable for complex versioned software releases
 
+### Recommended reading
+
+GitHub flow: https://docs.github.com/en/get-started/using-github/github-flow
+
 ## Option B: Gitflow — use only for formal releases
 
 Gitflow uses multiple long-lived branches, usually including:
@@ -160,7 +164,11 @@ Use Gitflow only when a project has:
 * Release candidates
 * Hotfixes to already-released versions
 
-Do not use Gitflow for most student case studies. It is usually too heavy and creates unnecessary branch-management overhead.
+Do not use Gitflow for most case studies. It is usually too heavy and creates unnecessary branch-management overhead.
+
+### Recommended reading
+
+A successful Git branching model (by Vincent Driessen): https://nvie.com/posts/a-successful-git-branching-model/
 
 ## Option C: Trunk-based development — advanced option
 
@@ -181,6 +189,12 @@ Use this only when the team has:
 | branches may live days       | branches live hours or <1 day        |
 | review before merge          | integrate continuously               |
 | simpler for teams/students   | optimized for rapid CI/CD            |
+
+### Recommended reading
+
+Trunk Based Development: 
+- https://trunkbaseddevelopment.com/
+- https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
 
 ## Recommended DARSE policy
 
