@@ -17,14 +17,7 @@ For most cases, use a simple GitHub Flow model:
 7. Merge into `main` after approval.
 8. Delete the branch after merge.
 
-Use this for:
-
-* Most case studies
-* Student projects
-* Research code
-* Analysis pipelines
-* Documentation projects
-* Small to medium teams
+**Work on branch → PR → review → squash merge.**
 
 This is the best default because most case-study projects are collaborative research/software projects, not formal product-release projects. The workflow is simple enough for students but still supports review, reproducibility, and traceability.
 
@@ -87,7 +80,10 @@ git push -u origin feature/descriptive-branch-name
 
 ### 5. Open a pull request
 
-A pull request should explain: what changed, why it changed, how it was tested, and any files, figures, or outputs reviewers should inspect
+* What changed
+* Why it changed
+* How it was tested
+* Any files, figures, or outputs reviewers should inspect
 
 ## Notes for reviewers
 Mention anything uncertain, incomplete, or requiring special attention.
@@ -111,7 +107,20 @@ After approval, merge into `main`. Then delete the feature branch from GitHub.
 
 Deleting merged branches keeps the repository clean. The branch history remains available through the pull request.
 
-Branch pattern:
+## When to use other workflows
+
+## Option A: GitHub Flow — recommended default
+
+Use this for:
+
+* Most case studies
+* Student projects
+* Research code
+* Analysis pipelines
+* Documentation projects
+* Small to medium teams
+
+### Branch pattern:
 
 ```text
 main
@@ -120,7 +129,7 @@ main
  └── docs/task-3
 ```
 
-Advantages:
+### Advantages:
 
 * Simple
 * Easy to teach
@@ -128,12 +137,10 @@ Advantages:
 * Keeps `main` stable
 * Avoids long-lived branches
 
-Disadvantages:
+### Disadvantages:
 
 * Requires discipline to keep branches short-lived
 * Less suitable for complex versioned software releases
-
-## When to use other workflows
 
 ## Option B: Gitflow — use only for formal releases
 
@@ -167,6 +174,14 @@ Use this only when the team has:
 * Experienced contributors
 * Small, frequent changes
 * Clear review expectations
+
+| GitHub Flow                  | Trunk-based                          |
+| ---------------------------- | ------------------------------------ |
+| short-lived feature branches | extremely short-lived branches       |
+| PR-driven workflow           | often direct integration or tiny PRs |
+| branches may live days       | branches live hours or <1 day        |
+| review before merge          | integrate continuously               |
+| simpler for teams/students   | optimized for rapid CI/CD            |
 
 ## Recommended DARSE policy
 
