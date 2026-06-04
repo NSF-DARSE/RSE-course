@@ -41,14 +41,13 @@ Recommended branch prefixes:
 ### 1. Start from an updated `main`
 
 ```bash
-git checkout main
+git switch main
 git pull origin main
 ```
 
 ### 2. Create a new branch
 
 ```bash
-git checkout -b feature/descriptive-branch-name
 git switch -c feature/descriptive-branch-name
 ```
 
