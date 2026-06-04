@@ -49,6 +49,7 @@ git pull origin main
 
 ```bash
 git checkout -b feature/descriptive-branch-name
+git switch -c feature/descriptive-branch-name
 ```
 
 Use one branch for one logical task. Avoid putting unrelated work into the same branch.
