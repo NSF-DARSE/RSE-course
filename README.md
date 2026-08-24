@@ -7,19 +7,10 @@ This repository is the central hub for the NSF DARSE Research Software Engineeri
 </p>
 
 ## Purpose
-This repository contains:
-- course information and policies
-- GitHub workflow and RSE best practices
-- links to all case study repositories
-
-⚠️ No project code lives in this repository.
-
-## Course Structure
+This repository contains links to all case study repositories 
 - Assets for some course lecture can be found course_material folder
 - Instrutions to set-up WSL in windows is available in course_material folder
-- Each case study is developed in its own GitHub repository
-- Students work via issues, branches, and pull requests
-- This repo remains stable throughout the semester
+- Each case study is developed in its own GitHub repository, under the NSF-DARSE GitHub organization
 
 ## Case Studies
 
